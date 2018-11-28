@@ -7,6 +7,7 @@
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <script src="js/chart.js"></script>
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -115,6 +116,19 @@
     </div>
   </section>
 
+  <!-- section-chart -->
+
+  <section class="section blue lighten-4 section-visitors">
+    <div class="row">
+      <div class="col s12 m6 l8">
+        <div class="card-panel">
+            <div id="chartContainer" style="height: 300px; width: 100%;">
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- PreLoader -->
   
   <div class="loader preloader-wrapper big active">
@@ -132,6 +146,7 @@
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
   <script>
 
     //hide section
