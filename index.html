@@ -93,12 +93,12 @@
         </div>
       </div>
       <div class="col s12 m6 l3">
-        <div class="card-panel teal lighten-1 darken-1 white-text center">
+        <div class="card-panel teal lighten-1 white-text center">
           <i class="material-icons medium">mode_comment</i>
           <h5>Comments</h5>
           <h3 class="count">300</h3>
-          <div class="progress yellow lighten-1">
-            <div class="determinate blue" style="width:70%"></div>
+          <div class="progress grey lighten-1">
+            <div class="determinate white" style="width:70%"></div>
           </div>
         </div>
       </div>
@@ -122,6 +122,20 @@
     $(document).ready(function () {
       // Custom JS & jQuery here
       $('.button-collapse').sideNav();
+
+      //Counter
+      $('.count').each(function() {
+         $(this).prop('Counter',0).animate({
+           Counter:$(this).text()
+
+         }, {
+            duration:1000,
+            easing:'swing',
+            step:function(now){
+              $(this).text(Math.ceil(now));
+            }
+         });
+      });
       
     });
   </script>
