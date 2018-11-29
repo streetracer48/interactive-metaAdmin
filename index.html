@@ -263,7 +263,7 @@
     </a>
     <ul>
       <li>
-          <a href="" class="modal-trigger btn-floating blue" id="#post-modal">
+          <a href="#post-modal" class="modal-trigger btn-floating blue" id="#post-modal">
               <i class="material-icons">mode_edit</i>
             </a>
       </li>
@@ -281,6 +281,40 @@
     </ul>
   </div>
 
+  <!-- Add Post Modal -->
+
+  <div id="post-modal" class="modal">
+    <div class="modal-content">
+      <h4>Add Post </h4>
+      <form>
+        <div class="input-field">
+          <input type="text" id="title">
+          <label for="title">title</label>
+        </div>
+        <div class="input-field">
+          <select>
+            <option value="" disabled  selected>select option</option>
+            <option value="1">Web development</option>
+            <option value="2">Front-end developer</option>
+          </select>
+           <label>Category</label>
+        </div>
+        <div class="input-field">
+          <textarea name="body"
+           id="body" 
+          class="materialize-textarea"
+           ></textarea>
+          <label for="body">Body</label>
+        </div>
+      </form>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn blue white-text">submit</a>
+
+      </div>
+
+
+    </div>
+  </div>
 
   <!-- PreLoader -->
   
@@ -314,7 +348,13 @@ setTimeout(function() {
     //Hide Preloader
     $('.loader').fadeOut();
       // Custom JS & jQuery here
+      //init side nav
       $('.button-collapse').sideNav();
+
+      //init  
+      $('.modal').modal();
+      //init select
+      $('select').material_select();
 
       //Counter
       $('.count').each(function() {
