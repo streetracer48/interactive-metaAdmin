@@ -334,6 +334,7 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
   <script>
 
     //hide section
@@ -381,6 +382,7 @@ setTimeout(function() {
         Materialize.toast('Comment Deny', 3000);
         e.preventDefault();
       });
+      CKEDITOR.replace( 'body' );
     });
 },3000)
 
