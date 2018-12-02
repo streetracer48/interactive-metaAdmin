@@ -13,10 +13,10 @@
 <img src="img/metaadmin.png" width="800" height="400">
 
 - `Mobile Responsive`
-<img src="img/team.png" width="400" height="400">
+<img src="img/metamobilebased.png" width="300" height="300">
 
 - `mobile navbar`
-<img src="img/metaadminmob2.png" width="400" height="400">
+<img src="img/metaadminmob2.png" width="300" height="300">
 
 - `Login page`
 <img src="img/login.png" width="800" height="400">
@@ -25,7 +25,7 @@
 <img src="img/post.png" width="800" height="400">
 
 - `users profile system`
-<img src="src/assets/users.png" width="800" height="400">
+<img src="img/users.png" width="800" height="400">
 
 - `comments`
 <img src="img/comment.png" width="800" height="400">
@@ -34,43 +34,27 @@
 <img src="img/cat.png" width="800" height="400">
 
 - `add posts modal`
-<img src="src/assets/addpost.png" width="800" height="400">
+<img src="img/addpost.png" width="800" height="400">
 
 ## Following technologies are used
 
-- `React`
-  - `React-router`
-  - `react-reveal`
-  - `react-animation`
-  - `react-infinite-scroller`
-  - `react-`
+- `Material-CSS`
+- `HTML`
+- `CSS`
+- `Canvas JS`
+- `Jquery`
+- `Font-Awsome`
+- `Materials-icons`
+- `Google-fonts`
 
-  - `react-loadable`
-  - `react-load-script``
-  - `react-dom`
-  - `react-router-dom`
-  - `react-cropper`
-   - `react-material-css`
-
-- `Firebase`
-- `Revalidate`
-- `Moment`
-- `Date-fns`
-- `Yarn`
   
  
      
 
 ## Supported Browsers
 
-`By default, the generated project supports all modern browsers.`  
+`By default, the generated project supports all modern browsers and Mobile.`  
    
-
-## Scripts
-
-- `npm run clean` Deletes Build files of Server and Client
-- `npm run build` Builds Server and Client
-- `npm start` Start server in production environment
 
 
                                                                                                                                                                                                                                                                                                                                                                      
