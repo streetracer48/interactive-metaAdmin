@@ -1,6 +1,6 @@
 # 
 
-## interactive-metaAdmin
+## Interactive-metaAdmin
 
 ## About
 
